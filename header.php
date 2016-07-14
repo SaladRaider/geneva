@@ -17,7 +17,7 @@
 			<h2><div class="xxl-text row text-centered">MISSSION STATEMENT</div></h2>
 			<div class="text-centered">
 			<a class="scroll-down" onclick="$('#start-of-content').goTo();">
-				<span class="wow bounce animate-infinite fa fa-angle-double-down"></span>
+				<span class="wow bounce animate-infinite fa fa-angle-double-down" data-wow-offset="-200"></span>
 			</a>
 		</div>
 		</div>

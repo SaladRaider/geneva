@@ -26,6 +26,16 @@
 
 	$(document).ready(function() {
 		updateNavbar();
+
+		wow = new WOW(
+		{
+		    boxClass:     'wow',      // default
+		    animateClass: 'animated', // default
+		    offset:       150,          // default
+		    mobile:       true,       // default
+		    live:         true        // default
+		});
+		wow.init();
 	});
 
 	$(window).scroll(function() {    
@@ -45,17 +55,12 @@
 		} else {
 			$(".navbar").removeClass("navbar-light");
 		}
-	}
 
-	wow = new WOW(
-	{
-	    boxClass:     'wow',      // default
-	    animateClass: 'animated', // default
-	    offset:       150,          // default
-	    mobile:       true,       // default
-	    live:         true        // default
-	});
-	wow.init();
+		if(width > 767) {
+			$("#main-nav").removeClass("in");
+		}
+	}
+	
 </script>
 
 </body>

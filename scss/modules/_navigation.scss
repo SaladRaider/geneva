@@ -14,6 +14,18 @@
 	
 }
 
+.navbar-collapse.in .navbar-nav, .navbar-collapse.collapsing .navbar-nav {
+	background-color: white;
+	margin-top: -11px;
+	padding-top: 8px;
+
+	li {
+		display: block;
+		height: 40px;
+		line-height: 40px;
+	}
+}
+
 .navbar {
 	height: 100px;
 	padding: 0 3%;
@@ -34,6 +46,7 @@
 	height: 100px;
 	@include transition($btn-trans-time, $btn-ease);
 }
+
 
 .navbar-light {
 	height: 70px;
@@ -75,6 +88,8 @@
 		display: inline-block;
 		@include transition($btn-trans-time, $btn-ease);
 	}
+
+	
 }
 
 .logo {
@@ -92,4 +107,77 @@
 		float: left;
 		color: $color-purple;
 	}
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    background-color: $color-purple;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-image: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 9px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 4px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0px 0px 0px 0px);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    padding: 0px;
+    margin: -1px;
+    overflow: hidden;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 340px;
+}
+
+.navbar-collapse.in {
+    overflow-y: auto;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    box-shadow: rgba(255, 255, 255, 0.0980392) 0px 1px 0px inset;
+    border-top: 1px solid transparent;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
 }
