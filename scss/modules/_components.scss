@@ -24,6 +24,7 @@
 
 .banner-text {
 	color: $color-white;
+	letter-spacing: 6px;
 }
 
 .text-centered {
@@ -129,6 +130,17 @@
     margin-left: -15px;
 }
 
+.animate-infinite {
+	@include animation-iteration-count(infinite);
+}
+
+.animation-delay-1 {
+	@include animation-delay($time-animation-delay-1);
+}
+
+.animation-delay-2 {
+	@include animation-delay($time-animation-delay-2);
+}
 
 
 

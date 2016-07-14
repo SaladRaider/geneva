@@ -4,6 +4,7 @@
 	<title>Compounding Pharmacy</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
 </head>
@@ -14,7 +15,14 @@
 
 		<div class="container centered banner-text">
 			<h2><div class="xxl-text row text-centered">MISSSION STATEMENT</div></h2>
+			<div class="text-centered">
+			<a class="scroll-down" onclick="$('#start-of-content').goTo();">
+				<span class="wow bounce animate-infinite fa fa-angle-double-down"></span>
+			</a>
 		</div>
+		</div>
+
+		
 
 	</div>
 
@@ -50,3 +58,5 @@
 			</nav>
 		</div>
 	</div>
+
+	<span id="start-of-content"></span>

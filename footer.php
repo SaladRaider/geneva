@@ -9,14 +9,16 @@
 <div class="footer-filler"></div>
 
 <div class="fixed-footer">
-	<div style="float: left;"><p><span class="fa fa-phone"></span> +1 (626)-522-2735</p></div>
+	<div style="float: left;"><p><span class="fa fa-phone"></span> +1 (626) 522-2735</p></div>
 	<div style="float: right;"><a href="mailto:ordercpac@gmail.com"><p><span class="fa fa-paper-plane-o"></span> ordercpac@gmail.com</p></a></div>
 
 </div>
 
-<script src="js/jquery-3.0.0.min.js" type="text/javascript"r></script>
+<script src="js/jquery-2.0.0.min.js" type="text/javascript"r></script>
 <script src="js/parallax.min.js" type="text/javascript"r></script>
-<script source="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollTo.js"></script>
+<script src="js/wow.js"></script>
 
 <script>
 	<!-- go here: http://pixelcog.github.io/parallax.js/ for info -->
@@ -44,6 +46,16 @@
 			$(".navbar").removeClass("navbar-light");
 		}
 	}
+
+	wow = new WOW(
+	{
+	    boxClass:     'wow',      // default
+	    animateClass: 'animated', // default
+	    offset:       150,          // default
+	    mobile:       true,       // default
+	    live:         true        // default
+	});
+	wow.init();
 </script>
 
 </body>
