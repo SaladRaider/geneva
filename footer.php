@@ -10,6 +10,9 @@
 
 <div class="fixed-footer">
 	<div style="float: left;"><p><span class="fa fa-phone"></span> +1 (626) 522-2735</p></div>
+	<div class="centered-h">
+		<p>3408 N. Eastern Ave., Los Angeles </p>
+	</div>
 	<div style="float: right;"><a href="mailto:ordercpac@gmail.com"><p><span class="fa fa-paper-plane-o"></span> ordercpac@gmail.com</p></a></div>
 
 </div>
@@ -21,8 +24,6 @@
 <script src="js/wow.js"></script>
 
 <script>
-	<!-- go here: http://pixelcog.github.io/parallax.js/ for info -->
-	$('.header-image').parallax({imageSrc: 'images/main-slide.jpg'});
 
 	$(document).ready(function() {
 		updateNavbar();

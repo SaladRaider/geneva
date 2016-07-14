@@ -10,22 +10,6 @@
 </head>
 <body>
 
-	<div class="container-fluid header-image" data-parallax="scroll" data-image="images/main-slide.jpg">
-		
-
-		<div class="container centered banner-text">
-			<h2><div class="xxl-text row text-centered">MISSSION STATEMENT</div></h2>
-			<div class="text-centered">
-			<a class="scroll-down" onclick="$('#start-of-content').goTo();">
-				<span class="wow bounce animate-infinite fa fa-angle-double-down" data-wow-offset="-200"></span>
-			</a>
-		</div>
-		</div>
-
-		
-
-	</div>
-
 	<div class="navbar navbar-fixed-top">
 		<div class="container-fluid">
 			
@@ -38,12 +22,13 @@
 					<span class="icon-bar"></span>
 				</button>
 
+				<a href="#" class="logo navbar-brand navbar-collapse collapsed">
+					<img class="logo-sm" src="images/logo-sm.png" alt="Compounding Pharmacy Associates and Consultants, Inc.">
+				</a>
+
 				<a class="logo navbar-brand navbar-collapse collapse">
 					<img class="logo-reg" src="images/logo.png" alt="Compounding Pharmacy Associates and Consultants, Inc.">
-					<img class="logo-sm" src="images/logo-sm.png" alt="Compounding Pharmacy Associates and Consultants, Inc.">
-					<h1>
-						Compounding Pharmacy
-					</h1>
+					<h1>Compounding Pharmacy</h1>
 				</a>
 			</div>
 
@@ -59,4 +44,4 @@
 		</div>
 	</div>
 
-	<span id="start-of-content"></span>
+	

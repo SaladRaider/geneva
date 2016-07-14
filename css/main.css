@@ -429,7 +429,7 @@ a:active {
   color: #9470dc;
   text-decoration: none; }
 
-.header-image {
+.header-image, .header-image-sm {
   background: rgba(0, 0, 0, 0.7);
   min-height: 100vh;
   padding-top: 30px;
@@ -437,6 +437,9 @@ a:active {
   padding-right: 40px;
   display: table;
   width: 100%; }
+
+.header-image-sm {
+  min-height: 500px; }
 
 .centered-v {
   position: absolute;
@@ -562,6 +565,34 @@ a:active {
   -o-animation-delay: 0.3s;
   animation-delay: 0.3s; }
 
+.no-padding {
+  padding: 0px; }
+
+.h-padding {
+  padding-right: 40px;
+  padding-left: 40px; }
+
+.v-padding {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.table-display {
+  display: table; }
+
+.about-section {
+  height: 500px; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.non-indented {
+  text-indent: 0px; }
+
 .nav-btn {
   padding-left: 40px;
   font-size: 18px;
@@ -668,6 +699,7 @@ a:active {
   transition: 0.5s; }
   .navbar .logo-reg {
     display: inline-block;
+    height: 66px;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -ms-transition-timing-function: ease;
@@ -735,6 +767,7 @@ a:active {
     transition: 0.5s; }
   .navbar-light .logo h1 {
     margin-top: 10px;
+    margin-left: 40px;
     font-size: 24px;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
@@ -746,7 +779,7 @@ a:active {
     -o-transition: 0.5s;
     transition: 0.5s; }
   .navbar-light .logo-reg {
-    display: none;
+    height: 33px;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -ms-transition-timing-function: ease;
@@ -757,7 +790,6 @@ a:active {
     -o-transition: 0.5s;
     transition: 0.5s; }
   .navbar-light .logo-sm {
-    display: inline-block;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -ms-transition-timing-function: ease;
@@ -768,17 +800,23 @@ a:active {
     -o-transition: 0.5s;
     transition: 0.5s; }
 
-.logo {
+.logo img {
   float: left; }
-  .logo img {
-    display: inline-block;
-    float: left; }
-  .logo h1 {
-    margin: 0px;
-    margin-left: 20px;
-    margin-top: 20px;
-    float: left;
-    color: #9470dc; }
+.logo h1 {
+  margin: 0px;
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 100%;
+  color: #9470dc;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .navbar-toggle {
   margin-top: 15px;
