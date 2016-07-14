@@ -21,10 +21,42 @@
 	</div>
 </div>
 
-<div class="container-fluid grey-back">
-	<div class="container">
-		<div class="col-xs-12 text-centered">
-			<h3>Parole Pharmacy</h3>
+<div class="container-fluid no-padding">
+	<div class="col-xs-12 text-centered v-padding grey-back">
+		<h3>Med-Care Pharmacy</h3>
+	</div>
+	<div class="col-xs-4 text-centered table-display about-section">
+		<div class="centered">
+			<p class="non-indented">
+				1048 S. Garfield Ave. 101<br />
+				Alhambra, CA 91801
+			</p>
+		</div>
+	</div>
+	<div class="col-xs-8 no-padding overflow-hidden about-section">
+		<iframe
+		width="100%"
+		height="500"
+		frameborder="0" style="border:0"
+		src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAotGTFWn_w9bNRQRX-nCWEbWAiDI_MD_Y&q=1048+S.+Garfield+Ave+101,Alhambra,+CA+91801" allowfullscreen>
+		</iframe>
+	</div>
+</div>
+
+<div class="container-fluid no-padding">
+	<div class="col-xs-12 text-centered v-padding grey-back">
+		<h3>Parole Pharmacy</h3>
+	</div>
+	<div class="col-xs-8 no-padding overflow-hidden about-section">
+		<iframe
+		width="100%"
+		height="500"
+		frameborder="0" style="border:0"
+		src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAotGTFWn_w9bNRQRX-nCWEbWAiDI_MD_Y&q=3408+N.+Eastern+Ave,Los+Angeles,+CA+90032" allowfullscreen>
+		</iframe>
+	</div>
+	<div class="col-xs-4 text-centered table-display about-section">
+		<div class="centered">
 			<p class="non-indented">
 				3408 N. Eastern Ave<br />
 				Los Angeles, CA 90032
@@ -32,16 +64,6 @@
 		</div>
 	</div>
 </div>
-
-<div class="container-fluid">
-	<iframe
-  width="100%"
-  height="450"
-  frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?q=3408+N.+Eastern+Ave,Los+Angeles,+CA+90032" allowfullscreen>
-</iframe>
-</div>
-
 
 <!-- key=AIzaSyCeBk4xBE0c5MFmev8nkrXmAm2icJ8d7gs& -->
 

@@ -52,13 +52,16 @@
 		var width = $(window).width();
 
 		if (scroll >= 200 || width <= 950) {
-			$(".navbar").addClass("navbar-light");
+			if(!$(".navbar").hasClass("navbar-light"))
+				$(".navbar").addClass("navbar-light");
 		} else {
-			$(".navbar").removeClass("navbar-light");
+			if($(".navbar").hasClass("navbar-light"))
+				$(".navbar").removeClass("navbar-light");
 		}
 
 		if(width > 767) {
-			$("#main-nav").removeClass("in");
+			if($("#main-nav").hasClass("in"))
+				$("#main-nav").removeClass("in");
 		}
 	}
 	
