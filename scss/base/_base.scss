@@ -9,12 +9,19 @@ p {
 	font-family: FuturaLight;
 }
 
-a:hover {
+a:hover{
 	text-decoration: none;
 	cursor: pointer;
+	color: $color-purple;
+	@include transition($btn-trans-time, $btn-ease);
 }
 
-.col-sm-4 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+a {
+	@include transition($btn-trans-time, $btn-ease);
+	color: $color-purple;
+}
+
+a:active  {
+	color: $color-purple;
+	text-decoration: none;
 }

@@ -17,14 +17,42 @@
 	font-size: $base-font-size;
 	color: $color-white;
 	display: inline-block;
-	border-width: 2px;
+	border-width: $border-width-default;
 	border-color: $color-purple;
 	border-style: solid;
-	@include transition($btn-trans-time, $btn-ease);
+	text-align: center;
+	margin: $margin-default-v 0px;
 }
 
 .btn-flat-purple:hover {
 	background-color: $color-white;
 	color: $color-purple;
-	@include transition($btn-trans-time, $btn-ease);
+}
+
+.btn-flat-inv {
+	@extend .btn-flat-purple;
+	color: $color-purple;
+	background-color: $color-white;
+}
+
+.btn-flat-inv:hover {
+	color: $color-white;
+	background-color: $color-purple;
+}
+
+.btn-group-standard :nth-child(n) {
+	@include border-radius(0px);
+	border-right-width: 0px;
+	border-left-width: $border-width-default;
+}
+
+.btn-group-standard :first-child {
+	@include border-radius($border-radius-default 0px 0px $border-radius-default);
+	border-left-width: $border-width-default;
+}
+
+.btn-group-standard :last-child {
+	@include border-radius(0px $border-radius-default $border-radius-default 0px);
+	border-left-width: $border-width-default;
+	border-right-width: $border-width-default;
 }
