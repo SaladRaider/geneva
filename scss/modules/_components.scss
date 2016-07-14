@@ -1,0 +1,65 @@
+.header-image {
+	background: rgba(0,0,0,0.7);//rgba(98,62,170,0.5);
+	min-height: 100vh;
+	padding-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.centered-v {
+	@include align-vert();
+}
+
+.centered-h {
+	@include align-hor();
+}
+
+.centered {
+	@include align-center();
+}
+
+.logo {
+	float: left;
+
+	img {
+		display: inline-block;
+		float: left;
+	}
+
+	h1 {
+		margin: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+		float: left;
+		color: $color-purple;
+	}
+}
+
+.banner-text {
+	color: $color-white;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.big-text {
+	font-size: $font-size-big;
+	//margin-top: 20px;
+	//margin-bottom: 20px;
+}
+
+.l-text {
+	@extend .big-text;
+	font-size: $font-size-l;
+}
+
+.container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.vert-padding {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}

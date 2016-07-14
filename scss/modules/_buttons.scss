@@ -1,0 +1,30 @@
+.nav-btn {
+	padding-left: 40px;
+	font-size: $base-font-size;
+	color: $color-white;
+}
+
+.nav-btn-holder {
+	text-align: right;
+	float: right;
+	line-height: 66px;
+}
+
+.btn-flat-purple {
+	background-color: $color-purple;
+	width: 100%;
+	line-height: 40px;
+	font-size: $base-font-size;
+	color: $color-white;
+	display: inline-block;
+	border-width: 2px;
+	border-color: $color-purple;
+	border-style: solid;
+	@include transition($btn-trans-time, $btn-ease);
+}
+
+.btn-flat-purple:hover {
+	background-color: $color-white;
+	color: $color-purple;
+	@include transition($btn-trans-time, $btn-ease);
+}

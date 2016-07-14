@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .jumbotron {
   margin: 0px;
@@ -378,6 +378,26 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+@font-face {
+  font-family: FuturaLight;
+  src: url("../fonts/Futura-T-OT-Book_19064.ttf"); }
+body {
+  font-family: FuturaLight; }
+
+p {
+  line-height: 26px;
+  font-size: 18px;
+  text-indent: 30px;
+  font-family: FuturaLight; }
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer; }
+
+.col-sm-4 {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
 /**
  * Functions
  */
@@ -387,5 +407,111 @@ textarea {
 /**
  * Converters
  */
+.header-image {
+  background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.centered-v {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%); }
+
+.centered-h {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%); }
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, 0%);
+  -moz-transform: translate(-50%, 0%);
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%); }
+
+.logo {
+  float: left; }
+  .logo img {
+    display: inline-block;
+    float: left; }
+  .logo h1 {
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    color: #9470dc; }
+
+.banner-text {
+  color: #fff; }
+
+.text-centered {
+  text-align: center; }
+
+.big-text, .l-text {
+  font-size: 36px; }
+
+.l-text {
+  font-size: 48px; }
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.vert-padding {
+  margin-top: 60px;
+  margin-bottom: 60px; }
+
+.nav-btn {
+  padding-left: 40px;
+  font-size: 18px;
+  color: #fff; }
+
+.nav-btn-holder {
+  text-align: right;
+  float: right;
+  line-height: 66px; }
+
+.btn-flat-purple {
+  background-color: #9470dc;
+  width: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  border-width: 2px;
+  border-color: #9470dc;
+  border-style: solid;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.btn-flat-purple:hover {
+  background-color: #fff;
+  color: #9470dc;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 /*# sourceMappingURL=main.css.map */

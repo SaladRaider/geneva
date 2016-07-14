@@ -74,6 +74,19 @@
 	@include transform(translate(0%,-50%));
 }
 
+@mixin align-hor() {
+	position: absolute;
+	left: 50%;
+	@include transform(translate(-50%,0%));
+}
+
+@mixin align-center() {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	@include transform(translate(-50%,0%));
+}
+
 @mixin animation-name($name) {
 	-webkit-animation-name: $name;
 	-moz-animation-name: $name;
