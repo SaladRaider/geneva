@@ -22,7 +22,7 @@
 				<h3>Services</h3>
 			</div>
 			<p class="wow fadeInUp">
-				CPAC also counsels our patients with every medication we dispense to ensure maximum compliance, and monitors medication combinations to protect against unsafe drug interactions.  Best of all, our prices are competitive – most are covered by private insurance, Medicare or Medicaid - so we can win and maintain your business! 
+				CPAC also counsels our patients with every medication we dispense to ensure maximum compliance, and monitors medication combinations to protect against unsafe drug interactions.  Best of all, our prices are competitive - most are covered by private insurance, Medicare or Medicaid - so we can win and maintain your business! 
 			</p>
 			<div class="text-centered wow fadeInUp">
 				<a href="./services.php" class="btn-flat-purple">Explore Services</a>
