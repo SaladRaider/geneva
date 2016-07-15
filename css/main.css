@@ -477,6 +477,9 @@ a:active {
 .xxl-text {
   font-size: 70px; }
 
+.xxl-text-prop {
+  font-size: 4vw; }
+
 .container {
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -592,6 +595,14 @@ a:active {
 
 .non-indented {
   text-indent: 0px; }
+
+.dark-fill {
+  width: 100%;
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.7); }
+
+.full-width {
+  width: 100%; }
 
 .nav-btn {
   padding-left: 40px;
@@ -710,7 +721,6 @@ a:active {
     -o-transition: 0.5s;
     transition: 0.5s; }
   .navbar .logo-sm {
-    display: none;
     -webkit-transition-timing-function: ease;
     -moz-transition-timing-function: ease;
     -ms-transition-timing-function: ease;

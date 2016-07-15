@@ -3,7 +3,7 @@
 
 <div class="container-fluid header-image-sm" data-parallax="scroll" data-image="./images/iStock_000014940140Large.jpg">
 	<div class="container centered banner-text">
-		<h2><div class="xxl-text row text-centered">REFILLS</div></h2>
+		<h2><div class="xxl-text-prop row text-centered">REFILLS</div></h2>
 	</div>
 </div>
 
@@ -16,12 +16,12 @@
 			<input class="text-box-outline col-xs-12 col-sm-6" type="text" name="name" placeholder="First Name" />
 			<input class="text-box-outline col-xs-12 col-sm-6" type="text" name="email" placeholder="Last Name" />
 		</div>
-		<input class="text-box-outline col-xs-12" type="text" name="email" placeholder="Email Address" />
-		<input class="text-box-outline col-xs-12" type="text" name="email" placeholder="Telephone #" />
-		<input class="text-box-outline col-xs-12" type="text" name="email" placeholder="Prescription #" />
-		<input class="text-box-outline col-xs-12" type="text" name="email" placeholder="Additional Prescription #" />
-		<input class="text-box-outline col-xs-12" type="text" name="email" placeholder="Additional Prescription #" />
-		<select class="text-box-outline col-xs-12" type="text" name="email" placeholder="Delivery Options">
+		<input class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Email Address" />
+		<input class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Telephone #" />
+		<input class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Prescription #" />
+		<input class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Additional Prescription #" />
+		<input class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Additional Prescription #" />
+		<select class="text-box-outline col-xs-12 wow fadeInUp" type="text" name="email" placeholder="Delivery Options">
 			<option value="">Pick up at pharmacy</option>
 			<option value="">Local delivery</option>
 			<option value="">USPS Priority mail</option>

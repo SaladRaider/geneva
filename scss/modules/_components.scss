@@ -52,6 +52,10 @@
 	font-size: $font-size-xxl;
 }
 
+.xxl-text-prop {
+	font-size: $font-size-xxl-prop;
+}
+
 .container {
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -181,5 +185,15 @@
 
 .non-indented {
 	text-indent: 0px;
+}
+
+.dark-fill {
+	width: 100%;
+	min-height: 100%;
+	background: rgba(0,0,0,0.7);
+}
+
+.full-width {
+	width: 100%;
 }
 

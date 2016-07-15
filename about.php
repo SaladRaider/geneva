@@ -3,7 +3,7 @@
 
 <div class="container-fluid header-image-sm" data-parallax="scroll" data-image="./images/iStock_000014940140Large.jpg">
 	<div class="container centered banner-text">
-		<h2><div class="xxl-text row text-centered">ABOUT US</div></h2>
+		<h2><div class="xxl-text-prop row text-centered">ABOUT US</div></h2>
 	</div>
 </div>
 
@@ -24,7 +24,7 @@
 	<div class="col-md-6 no-padding image cell-centered about-section" id="dr-seus">
 	</div>
 	<div class="col-xs-12 v-padding h-padding">
-		<p class="wow fadeInUp v-padding">Dr. Chen has won several awards, including the 2015 “Pharmacist of the Year,” presented by the San Gabriel Valley Pharmacist Association.  Dr. Chen has also been invited to present her research to professional associations, such as the American Association for Cancer Research, and has published articles in such prestigious journals as Pharmaceutical Research and the American Journal of Pharmacy Educator and.  She currently sits on the board of directors of the San Gabriel Valley Pharmacist Association. </p>
+		<p class="wow fadeInUp v-padding">Dr. Chen has won several awards, including the 2015 "Pharmacist of the Year," presented by the San Gabriel Valley Pharmacist Association.  Dr. Chen has also been invited to present her research to professional associations, such as the American Association for Cancer Research, and has published articles in such prestigious journals as Pharmaceutical Research and the American Journal of Pharmacy Educator and.  She currently sits on the board of directors of the San Gabriel Valley Pharmacist Association. </p>
 		<p class="wow fadeInUp v-padding">Prior to opening her own compounding service, Dr. Chen was an assistant professor at the West Coast University School of Pharmacy and an instructor at the University of Houston College of Pharmacy.  She also spent five years as a pharmaceutical scientist at PCCA, the Professional Compounding Center of America, where she developed over 1,200 pharmaceutical formulations, and helped mentor other compounding pharmacists and technicians. In addition, Dr. Chen served as president of Irving Research Laboratories, where she developed and launched her own dermatologic product lines. </p> 
 		<p class="wow fadeInUp v-padding">Dr. Chen earned a Ph.D. in Pharmaceutics and a Pharm.D. from the University of Houston College of Pharmacy.  She is bilingual in English and Chinese.</p>
 	</div>

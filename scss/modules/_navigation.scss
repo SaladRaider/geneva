@@ -38,7 +38,7 @@
 	}
 
 	.logo-sm {
-		display: none;
+		//display: none;
 		@include transition($btn-trans-time, $btn-ease);
 	}
 }

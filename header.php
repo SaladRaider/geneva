@@ -22,7 +22,7 @@
 					<span class="icon-bar"></span>
 				</button>
 
-				<a href="./" class="logo navbar-brand navbar-collapse collapsed">
+				<a href="./" class="logo navbar-brand visible-xs collapsed">
 					<img class="logo-sm" src="images/logo-sm.png" alt="Compounding Pharmacy Associates and Consultants, Inc.">
 				</a>
 

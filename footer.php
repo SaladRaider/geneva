@@ -10,10 +10,10 @@
 
 <div class="fixed-footer">
 	<div style="float: left;"><p><span class="fa fa-phone"></span> +1 (626) 522-2735</p></div>
-	<div class="centered-h">
+	<div class="centered-h hidden-xs">
 		<p>3408 N. Eastern Ave., Los Angeles </p>
 	</div>
-	<div style="float: right;"><a href="mailto:ordercpac@gmail.com"><p><span class="fa fa-paper-plane-o"></span> ordercpac@gmail.com</p></a></div>
+	<div class="hidden-xs" style="float: right;"><a href="mailto:ordercpac@gmail.com"><p><span class="fa fa-paper-plane-o"></span> ordercpac@gmail.com</p></a></div>
 
 </div>
 

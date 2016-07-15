@@ -3,7 +3,7 @@
 
 <div class="container-fluid header-image-sm" data-parallax="scroll" data-image="./images/iStock_000014940140Large.jpg">
 	<div class="container centered banner-text">
-		<h2><div class="xxl-text row text-centered">SERVICES</div></h2>
+		<h2><div class="xxl-text-prop row text-centered">SERVICES</div></h2>
 	</div>
 </div>
 
