@@ -46,7 +46,9 @@
 				<h3>Refills</h3>
 			</div>
 			<p class="wow fadeInUp animation-delay-2">
-				The prescriptions we provide are of the highest medical grade, and we stand 100% behind every prescription we fill.  Our goal is to earn your long-term trust; if a prescription does not meet your standards, we will re-make it for you at no additional cost until you are completely satisfied.
+				The prescriptions we provide are of the highest medical grade, and we stand 100% behind every prescription we fill.  Our goal is to earn your long-term trust; if a prescription does not meet your standards, we will re-make it for you at no additional cost until you are completely satisfied.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<br/>
+				<br/>
 			</p>
 			<div class="text-centered wow fadeInUp animation-delay-2">
 				<a href="./refills.php" class="btn-flat-purple">Refill Now</a>

@@ -28,7 +28,10 @@
 
 				<a href="./" class="logo navbar-brand navbar-collapse collapse">
 					<img class="logo-reg" src="images/logo.png" alt="Compounding Pharmacy Associates and Consultants, Inc.">
-					<h1>Compounding Pharmacy</h1>
+					<h1>
+						Compounding Pharmacy
+						<div>Associates and Consultants,Inc</div>
+					</h1>
 				</a>
 			</div>
 

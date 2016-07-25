@@ -11,7 +11,7 @@
 
 <div class="container-fluid no-padding">
 	<div class="col-xs-12 grey-back text-centered v-padding">
-		<h3 class="wow fadeInUp">Pharm.D, Ph.D. Dr. Geneva Chen</h3>
+		<h3 class="wow fadeInUp">Geneva Chen, PharmD PhD</h3>
 	</div>
 	<div class="col-md-6 h-padding v-padding table-display about-section">
 		<div class="centered">
